@@ -1,0 +1,25 @@
+.title {
+    text-align: center;
+}
+
+hr {
+    height: 6px;
+    width: 40%;
+    border-width: 0;
+}
+
+p {
+    text-align: center;
+}
+
+ul li {
+    text-align: center;
+    list-style-type: none;
+}
+
+.titleborder {
+    height: 10px;
+    width: 20%;
+    border-width: 2px;
+    border-color: blue;
+}

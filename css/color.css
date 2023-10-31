@@ -1,0 +1,19 @@
+p {
+    color: black;
+}
+
+li {
+    color: #0000ff;
+}
+
+a {
+    color: blue;
+}
+
+hr {
+    background-color: rgb(0, 34, 255);
+}
+
+.titleborder {
+    background-color: aqua;
+}
