@@ -3,15 +3,15 @@ p {
 }
 
 li {
-    color: #0000ff;
+    color: rgb(100, 255, 255);
 }
 
 a {
-    color: blue;
+    color: rgb(20,255,255);
 }
 
 hr {
-    background-color: rgb(0, 34, 255);
+    background-color: rgb(20, 200, 255);
 }
 
 .titleborder {
