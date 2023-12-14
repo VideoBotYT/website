@@ -1,8 +1,11 @@
 .mainPage {
-    background-image: url("../images/BGMainPage.png");
-    background-repeat: no-repeat;
+    background: url("../images/BGMainPage.png") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .projectPage {
-    background-image: url("../images/BGProjectsPage.png");
+    background: url("../images/BGProjectsPage.png") no-repeat;
+    background-size: cover;
+    background-position-y: 0vh;
 }
