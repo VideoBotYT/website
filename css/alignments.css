@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
 hr {
     height: 6px;
     width: 60%;
@@ -12,13 +17,31 @@ p {
     text-align: center;
 }
 
-ul li {
+.projects {
     text-align: center;
     list-style-type: none;
 }
+
+.info {
+    text-align: center;
+    list-style-type: none;
+}
+
+.game_info {
+    list-style-type: none;
+}
+
 
 .titleborder {
     height: 10px;
     width: 20%;
     border-width: 2px;
+}
+ul li {
+    text-align: center;
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
 }

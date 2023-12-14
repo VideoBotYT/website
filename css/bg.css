@@ -1,3 +1,7 @@
-body {
-    background-image: url("../images/BG.png");
+.mainPage {
+    background-image: url("../images/BGMainPage.png");
+}
+
+.projectPage {
+    background-image: url("../images/BGProjectsPage.png");
 }
