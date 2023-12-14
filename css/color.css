@@ -1,5 +1,5 @@
 p {
-    color: black;
+    color: blue;
 }
 
 li {
@@ -18,7 +18,7 @@ hr {
     background-color: aqua;
 }
 
-h1 {
+h1, h2 {
     color: blue;
     text-decoration: underline;
 }
