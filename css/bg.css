@@ -1,5 +1,6 @@
 .mainPage {
     background-image: url("../images/BGMainPage.png");
+    background-repeat: no-repeat;
 }
 
 .projectPage {
