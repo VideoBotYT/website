@@ -1,0 +1,81 @@
+.title {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(20,255,255);
+}
+
+hr {
+    height: 6px;
+    width: 60%;
+    border-width: 0;
+    background-color: rgb(20, 200, 255);
+}
+
+p {
+    text-align: center;
+    font-family: Arial;
+    color: blue;
+}
+
+.projects {
+    text-align: center;
+    list-style-type: none;
+}
+
+.info {
+    text-align: center;
+    list-style-type: none;
+}
+
+.game_info {
+    list-style-type: none;
+}
+
+
+.titleborder {
+    height: 10px;
+    width: 20%;
+    border-width: 2px;
+    background-color: aqua;
+}
+ul li {
+    text-align: center;
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Others {
+    height: 10px;
+    width: 80%;
+    border-width: 4px;
+    background-color: rgb(20, 0, 255);
+    border-color: aqua;
+}
+.mainPage {
+    background: url("../images/BGMainPage.png") no-repeat;
+    background-size: cover;
+    background-position-y: 0vh;
+}
+
+.projectPage {
+    background: url("../images/BGProjectsPage.png") no-repeat;
+    background-size: cover;
+    background-position-y: 0vh;
+}
+
+li {
+    font-family: 'Sogoe UI', Roboto;
+    color: rgb(100, 255, 255);
+}
+
+h1, h2 {
+    color: blue;
+    text-decoration: underline;
+}
