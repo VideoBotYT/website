@@ -8,12 +8,14 @@ body {
     text-align: center;
     color: blue;
     font-size: 400%;
+    animation: slide 2s;
 }
 
 p {
     text-align: center;
     color: rgb(0, 255, 255);
     font-size: xx-large;
+    animation: slide 3s;
 }
 
 hr {
@@ -30,4 +32,14 @@ hr {
     height: 4px;
     width: 40%;
     border-width: 3px;
+    animation: slide 4s;
+}
+
+.Cool {
+    animation: slide 5s;
+}
+
+@keyframes slide {
+    0% { transform: translateY(800px); }
+    50% { transform: translateY(0px); }
 }
