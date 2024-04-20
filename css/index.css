@@ -1,5 +1,6 @@
 .title {
     text-align: center;
+    animation: slide 2s;
 }
 
 a {
@@ -27,8 +28,8 @@ p {
 }
 
 .info {
-    text-align: center;
     list-style-type: none;
+    animation: slide 2s;
 }
 
 .game_info {
@@ -41,6 +42,7 @@ p {
     width: 20%;
     border-width: 2px;
     background-color: aqua;
+    animation: slide 2s;
 }
 ul li {
     text-align: center;
@@ -57,25 +59,35 @@ h1 {
     border-width: 4px;
     background-color: rgb(20, 0, 255);
     border-color: aqua;
+    animation: slide 2s;
 }
 .mainPage {
     background: url("../images/BGMainPage.png") no-repeat;
     background-size: cover;
     background-position-y: 0vh;
+    animation: slide 2s;
 }
 
 .projectPage {
     background: url("../images/BGProjectsPage.png") no-repeat;
     background-size: cover;
     background-position-y: 0vh;
+    animation: slide 2s;
 }
 
 li {
     font-family: 'Sogoe UI', Roboto;
     color: rgb(100, 255, 255);
+    animation: slide 2s;
 }
 
 h1, h2 {
     color: blue;
     text-decoration: underline;
+    animation: slide 2s;
+}
+
+@keyframes slide {
+    0% { transform: translateX(-400px); }
+    50% { transform: translateX(0px); }
 }
