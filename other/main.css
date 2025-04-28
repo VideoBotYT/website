@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(63, 75, 90);
+    font-family: jersey;
+    text-align: center;
+}
+
+h1 {
+    font-family: muff;
+    color: rgb(20, 255, 255);
+}
+
+p {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    color: aqua;
+}
+
+li {
+    color: cornflowerblue;
+}
+
+details {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    interpolate-size: allow-keywords;
+
+    &::details-content {
+        transition:
+            block-size 1s,
+            content-visibility 1s allow-discrete;
+        overflow: hidden;
+        block-size: 0;
+    }
+
+    &[open]::details-content {
+        block-size: auto;
+    }
+}
+
+a {
+    font-family: funkin;
+    text-decoration: none;
+    color: black;
+}
+
+.topBar {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(45, 57, 73);
+    word-spacing: 10px;
+    font-size: large;
+}
+
+.nav-active {
+    background-color: rgb(56, 59, 63);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav-inactive {
+    padding: 10px;
+}
+
+.Headers {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-large;
+    padding: 5px;
+    border-radius: 10px;
+    width: 600px;
+    background-color: rgb(47, 63, 83);
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    border-radius: 5px;
+    width: 600px;
+    color: rgb(6, 145, 115);
+    background-color: rgb(46, 60, 77);
+}
+
+.modchart {
+    color: white;
+    text-shadow: 0px 2px 5px black;
+    font-family: funkin;
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: gap;
+    src: url(gaposiss.ttf);
+}
+
+@font-face {
+    font-family: funkin;
+    src: url(funkin.ttf);
+}
+
+@font-face {
+    font-family: jersey;
+    src: url(Jersey10-Regular.ttf);
+}
+
+@font-face {
+    font-family: muff;
+    src: url(PhantomMuff\ Difficult\ Font.ttf);
+}
