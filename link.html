@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta written-by="Daveberry"/>
+        <title>VideoBot</title>
+        <link rel="icon" href="assets/images/VideoBot.png" type="image/x-icon">
+        <link rel="stylesheet" href="styler.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    
+    <body>
+        <div class="topbar">
+            <a href="index.html"><span class="material-symbols-outlined">home</span>HOME</a>
+            <a href="about.html"><span class="material-symbols-outlined">info</span>ABOUT</a>
+            <a href="link.html" class="active"><span class="material-symbols-outlined">link</span>LINK</a>
+        </div>
+        
+        <div class="mainContent">
+            <h1>Here are my links! Not much, but something at least.</h1>
+            <a href="https://youtube.com/@videobot2009">YouTube</a>
+            <a href="https://github.com/VideoBotYT">Github</a>
+        </div>
+    </body>
+    
+    <style>
+        .mainContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 25px;
+            
+            a {
+                background-color: var(--cardColor);
+                width: fit-content;
+                padding: 0.5rem 1rem;
+                text-decoration: none;
+                color: var(--textColor);
+                border-radius: 15rem;
+                box-shadow: #000 0px 10px 10px;
+            }
+        }
+    </style>
+</html>
