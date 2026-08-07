@@ -37,4 +37,15 @@
     .wrapper {
         flex: 1;
     }
+
+    @media screen and (min-width: 860px){
+        *{
+            font-size: 1rem;
+        }
+    }
+    @media screen and (max-width: 860px){
+        *{
+            font-size: 0.8rem;
+        }
+    }
 </style>
