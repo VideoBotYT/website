@@ -3,7 +3,6 @@
         { name: "Solar Engine", url: "https://solarengine.net", description: "Friday Night Funkin modding engine", image: "https://solarengine.net/_app/immutable/assets/favicon.Dn-ZpcBn.ico" },
         { name: "Shifted Chronicles", url: "https://fridaynightfunking.fandom.com/wiki/D%26B_SHIFTED_CHRONICLES", description: "A Friday Night Funkin Dave and Bambi mod", image: "images/projects/Shifted_Chronicles.png" },
         { name: "Spook's Creativity", url: "https://gamebanana.com/mods/561933", description: "An FNF mod unofficially continuing An Ammar's Creativity", image: "images/projects/Spook.png" },
-        { name: "Kyanite", url: "", description: "An FNF mod inspired by the VS Retrospecter mod", image: "images/projects/Kyanite.png" },
     ]
 </script>
 
