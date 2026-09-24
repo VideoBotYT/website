@@ -35,6 +35,16 @@
         "CMake",
         "systemd",
         "Checksums",
+        "HXML",
+        "Batchfile",
+        "Groovy",
+        "Binary",
+        "C",
+        "D",
+        "PowerShell",
+        "Waveform Object",
+        "Wavefront Material",
+        "ZenScript"
     ];
 
     let loading = true;
