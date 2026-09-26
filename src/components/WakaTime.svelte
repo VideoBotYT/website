@@ -42,7 +42,7 @@
         "C",
         "D",
         "PowerShell",
-        "Waveform Object",
+        "Wavefront Object",
         "Wavefront Material",
         "ZenScript"
     ];
